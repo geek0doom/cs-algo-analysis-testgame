@@ -7,3 +7,6 @@
 .idea/
 *.bak
 
+bin/module-info.class
+bin/tictactoe/Main.class
+bin/tictactoe/robot.class
