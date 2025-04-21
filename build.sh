@@ -18,14 +18,13 @@ if [ $? -ne 0 ]; then
 fi
 
 echo
-echo "✅ Compilation complete."
-echo "💡 To run the program interactively:"
-echo "java -cp $OUT $MAIN_CLASS"
+echo *Compilation complete!
 echo
-echo "💡 To run a simulation (e.g., minimax vs random, 100 games):"
-echo "- Algorithms: Minimax, Greedy, and Random"
-echo "java -cp $OUT $MAIN_CLASS simulate minimax random 100"
-echo
-echo "- The -h or -help displays help and commands with args required"
-echo "java -cp $OUT $MAIN_CLASS -h"
+echo **Arguments
+echo -h or -help - displays a help args, etc
+echo -s - runs simulations eg. (minimax, random, greedy)
+echo **Syntax. 
+echo java -cp %OUT% %MAIN_CLASS% -s <Algo1> <algo2> <runcount>
+echo **Example.
+echo java -cp %OUT% %MAIN_CLASS% -s minimax random 100
 echo

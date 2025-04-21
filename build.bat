@@ -21,15 +21,16 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 echo.
-echo ✅ Compilation complete.
-echo 💡 To run the program interactively:
-echo java -cp %OUT% %MAIN_CLASS%
+echo # Compilation complete.
 echo.
-echo 💡 To run a simulation (e.g., minimax vs random, 100 games):
-echo - Algorithims: Minimax, Greedy, and Random
+echo ##Arguments
+echo -h or -help - displays a help args, etc
+echo -s - runs simulations eg. (minimax, random, greedy)
+echo ##Syntax. 
+echo java -cp %OUT% %MAIN_CLASS% -s (Algo1) (algo2) (runcount)
+echo ##Example.
 echo java -cp %OUT% %MAIN_CLASS% -s minimax random 100
-echo  - The -h or -help displays help and commands with args required
-echo java -cp %OUT% %MAIN_CLASS% -h 
 echo.
+
 
 endlocal
