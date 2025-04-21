@@ -6,6 +6,9 @@
 *.iml
 .idea/
 *.bak
+*.key
+*.pem
+*.crt
 
 bin/module-info.class
 bin/tictactoe/Main.class
