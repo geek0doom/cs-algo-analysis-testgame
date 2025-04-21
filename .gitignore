@@ -1,0 +1,9 @@
+/out/
+/*.class
+*.log
+*.tmp
+.DS_Store
+*.iml
+.idea/
+*.bak
+
